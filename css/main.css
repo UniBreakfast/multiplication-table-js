@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+* {box-sizing: border-box}
+
+td {
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 8px;
+    white-space: nowrap;
+}
+
+td:hover {
+    background: #c0c0c0c9;
+}
+
+#numLeftInput, #numTopInput, #rowsInput {
+    border: 1px solid;
+}
+
+th {
+    padding: 5px 8px;
+}
+
+th:first-child {
+    max-width: 50px;
+    height: 20px;
+}
+
+td, th {
+    box-sizing: border-box;
+}
+
+tr:hover, .selected {
+    background: #c0c0c081;
+}
