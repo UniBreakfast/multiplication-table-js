@@ -1,7 +1,8 @@
-const errors = []
+let errors
 const lieChance = 0.05
 
 function buildTable(numLeft, numTop, rows) {
+	errors = []
 	table.innerHTML = ''
 	const thead = document.createElement('thead')
 	let tr = document.createElement('tr')
