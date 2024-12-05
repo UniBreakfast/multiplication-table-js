@@ -88,7 +88,7 @@ function buildTable(numLeft, numTop, rows) {
 	rowsInput.oninput = (e) => {
 		const rows = +rowsInput.innerText
 		if (!rows || rows < 0) rowsInput.innerText = 1
-		if (rows > 20) rowsInput.innerText = 20
+		if (rows > 30) rowsInput.innerText = 30
 	}
 }
 
